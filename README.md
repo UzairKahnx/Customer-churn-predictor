@@ -41,11 +41,18 @@ Pipeline: `StandardScaler` for numeric features + `OneHotEncoder(handle_unknown=
 3. **Nudge electronic-check users to autopay** — a small bill credit is cheaper than losing them (45% → 17% churn).
 4. **Bundle support with fibre** — a free Tech Support / Online Security trial addresses the highest-churn internet segment (42% → 19% churn).
 
+## Using the app
+
+The app is a **scoring tool for new, unseen customer data**, not a report of the results above. It has two modes:
+
+- **Score one customer** — change any of the 19 inputs and the risk score, action plan and model-driver chart update instantly. Two example buttons (High risk / Low risk) let you see the difference immediately, and a what-if simulator shows the effect of a contract or payment change.
+- **Upload a CSV of customers** — supply a file with the same customer columns, get a churn score, risk level and recommended action per row, filter by risk band, and download the results. An example template is available in the app.
+
 ## Files
 
 | File | Purpose |
 |---|---|
-| `app.py` | Streamlit app: risk level, action plan, model drivers, what-if simulator |
+| `app.py` | Streamlit app: live single-customer scoring + batch CSV scoring |
 | `Churn_Project.ipynb` | Full 11-step analysis and model training (Colab) |
 | `telco_churn.csv` | Dataset (Kaggle Telco Customer Churn, 7,043 customers) |
 | `requirements.txt` | Python dependencies |
