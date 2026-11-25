@@ -1,6 +1,6 @@
 # LinkedIn post draft
 
-> Replace `[LIVE APP LINK]` and `[GITHUB LINK]` with the real URLs, then copy the text below into a new LinkedIn post.
+> Replace `[LIVE APP LINK]` with the real URL, then copy the text below into a new LinkedIn post.
 
 ---
 
@@ -23,7 +23,7 @@ A telecom company was losing customers every month. Using the Telco Customer Chu
 The hardest part wasn't the modelling — it was choosing the right metric. A model with 80% accuracy looked great until I realised it was missing almost half the people who actually left. Optimising for recall changed the whole result.
 
 Try the app here 👉 [LIVE APP LINK]
-Code and notebook 👉 [GITHUB LINK]
+Code and notebook 👉 https://github.com/UzairKahnx/Customer-churn-predictor
 
 I used AI tools to help and debug, but I can explain every line of what I built. Happy to answer questions in the comments! 💬
 
