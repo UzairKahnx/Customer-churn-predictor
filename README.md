@@ -43,10 +43,11 @@ Pipeline: `StandardScaler` for numeric features + `OneHotEncoder(handle_unknown=
 
 ## Using the app
 
-The app is a **scoring tool for new, unseen customer data**, not a report of the results above. It has two modes:
+The app is a **scoring tool for new, unseen customer data**. It offers three clean input modes:
 
-- **Score one customer** — change any of the 19 inputs and the risk score, action plan and model-driver chart update instantly. Two example buttons (High risk / Low risk) let you see the difference immediately, and a what-if simulator shows the effect of a contract or payment change.
-- **Upload a CSV of customers** — supply a file with the same customer columns, get a churn score, risk level and recommended action per row, filter by risk band, and download the results. An example template is available in the app.
+- **Single customer** — fill in a compact form and submit to get the risk level and recommended actions.
+- **Fill a table** — enter customer rows directly in an editable table, then score them all at once.
+- **Upload CSV** — score a file of customers and download the results.
 
 ## Files
 
